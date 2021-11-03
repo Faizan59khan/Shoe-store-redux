@@ -1,0 +1,41 @@
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background:  rgb(229, 241, 51);
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  height: auto;
+ 
+}
+
+.navbar__logo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+
+
+.navbar__cart:hover {
+  opacity: 0.75;
+}
+
+
+
+
+
+.cart__counter {
+ 
+  color: black;
+  background: var(--light-color);
+  font-size: 40px;
+ 
+ 
+ 
+}
